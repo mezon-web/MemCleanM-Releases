@@ -1,4 +1,4 @@
-MemCleanM v0.3.1
+MemCleanM v0.3.2
 メモリ管理 / アプリ・プロセスモニター
 
 Windows x64 向けの手動メモリ整理アプリです。
