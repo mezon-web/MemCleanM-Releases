@@ -8,6 +8,7 @@
 
 - [MemCleanM-v0.2.0-win-x64.zip](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.2.0/MemCleanM-v0.2.0-win-x64.zip)
 - [SHA-256確認用ファイル](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.2.0/MemCleanM-v0.2.0-win-x64.zip.sha256.txt)
+- [画面付きHTMLマニュアル](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.2.0/MemCleanM-v0.2.0-Manual-ja.html)（ダウンロードしてブラウザーで開く）
 - [リリースの説明](https://github.com/mezon-web/MemCleanM-Releases/releases/tag/v0.2.0) / [配布一覧](https://github.com/mezon-web/MemCleanM-Releases/releases)
 
 Windows 11 x64で検証しています。Windows 10 x64は実機未検証です。.NETランタイムを同梱し、インストールや管理者権限は不要です。
@@ -22,7 +23,7 @@ ZIPを展開し、`MemCleanM.exe`を起動してください。ZIPにはアプ�
 
 「ゲーム前」「画像生成前」など、よく使う組み合わせはプリセットへ登録できます。作業中のアプリや保護設定に登録したアプリは整理対象から除外します。自動整理・自動起動・ネットワーク通信は行いません。
 
-詳しい操作は[使い方](使い方.txt)を参照してください。
+画面の見方と操作手順は[画面付きHTMLマニュアル](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.2.0/MemCleanM-v0.2.0-Manual-ja.html)を参照してください。画像内蔵の1ファイルで、オフラインでも使えます。マニュアル内検索・画面例の拡大・印刷/PDF保存に対応しています。[テキスト版](使い方.txt)もあります。
 
 ## 主な機能
 
