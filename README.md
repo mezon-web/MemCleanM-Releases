@@ -4,12 +4,12 @@
 
 ## ダウンロード
 
-現在の配布版は **v0.3.0（プレビュー版）** です。
+現在の配布版は **v0.3.1（プレビュー版）** です。
 
-- [MemCleanM-v0.3.0-win-x64.zip](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.3.0/MemCleanM-v0.3.0-win-x64.zip)
-- [SHA-256確認用ファイル](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.3.0/MemCleanM-v0.3.0-win-x64.zip.sha256.txt)
-- [画面付きHTMLマニュアル](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.3.0/MemCleanM-v0.3.0-Manual-ja.html)（ダウンロードしてブラウザーで開く）
-- [リリースの説明](https://github.com/mezon-web/MemCleanM-Releases/releases/tag/v0.3.0) / [配布一覧](https://github.com/mezon-web/MemCleanM-Releases/releases)
+- [MemCleanM-v0.3.1-win-x64.zip](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.3.1/MemCleanM-v0.3.1-win-x64.zip)
+- [SHA-256確認用ファイル](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.3.1/MemCleanM-v0.3.1-win-x64.zip.sha256.txt)
+- [画面付きHTMLマニュアル](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.3.1/MemCleanM-v0.3.1-Manual-ja.html)（ダウンロードしてブラウザーで開く）
+- [リリースの説明](https://github.com/mezon-web/MemCleanM-Releases/releases/tag/v0.3.1) / [配布一覧](https://github.com/mezon-web/MemCleanM-Releases/releases)
 
 Windows 11 x64で検証しています。Windows 10 x64は実機未検証です。.NETランタイムを同梱し、インストールや管理者権限は不要です。
 
@@ -23,9 +23,11 @@ ZIPを展開し、`MemCleanM.exe`を起動してください。ZIPにはアプ�
 
 「ゲーム前」「画像生成前」など、よく使う組み合わせはプリセットへ登録できます。作業中のアプリや保護設定に登録したアプリは整理対象から除外します。任意で「自動実行 ON」にすると、メモリ不足と低負荷の条件が続く場合だけ整理します。起動時は必ずOFFです。自動起動・ネットワーク通信は行いません。
 
-画面の見方と操作手順は[画面付きHTMLマニュアル](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.3.0/MemCleanM-v0.3.0-Manual-ja.html)を参照してください。画像内蔵の1ファイルで、オフラインでも使えます。マニュアル内検索・画面例の拡大・印刷/PDF保存に対応しています。[テキスト版](使い方.txt)もあります。
+画面の見方と操作手順は[画面付きHTMLマニュアル](https://github.com/mezon-web/MemCleanM-Releases/releases/download/v0.3.1/MemCleanM-v0.3.1-Manual-ja.html)を参照してください。画像内蔵の1ファイルで、オフラインでも使えます。マニュアル内検索・画面例の拡大・印刷/PDF保存に対応しています。[テキスト版](使い方.txt)もあります。
 
 ## 主な機能
+
+- 上端28px相当の統合ヘッダー、ウィンドウ操作とWindows 11スナップ用の入力判定
 
 - 同じEXEのフルパスごとのアプリ集約、PID別の展開、一部選択
 - 検索・絞り込みを変えても保持する選択、検索外の選択件数表示
@@ -51,10 +53,10 @@ Windowsの機能で対象プロセスのRAM常駐量を縮小します。アプ�
 ZIPとSHA-256確認用ファイルを同じフォルダへ保存し、PowerShellで比較してください。
 
 ```powershell
-Get-FileHash .\MemCleanM-v0.3.0-win-x64.zip -Algorithm SHA256
-Get-Content .\MemCleanM-v0.3.0-win-x64.zip.sha256.txt
+Get-FileHash .\MemCleanM-v0.3.1-win-x64.zip -Algorithm SHA256
+Get-Content .\MemCleanM-v0.3.1-win-x64.zip.sha256.txt
 ```
 
 ## 変更履歴
 
-[v0.3.0の変更内容](release-notes/v0.3.0.md)
+[v0.3.1の変更内容](release-notes/v0.3.1.md)
